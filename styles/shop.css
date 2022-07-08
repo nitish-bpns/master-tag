@@ -1,0 +1,63 @@
+.shop1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8% 12% 0 13%;
+}
+
+.s1-col1 {
+    width: 10%;
+    padding: 7% 0 0 0;
+}
+
+.s1-col2 {
+    width: 44%;
+    padding: 5% 0 0 0;
+
+}
+
+.s1-col3 {
+    width: 41%;
+    border: solid #959595 2.5px;
+    padding: 2%;
+    border-radius: 20px;
+
+}
+
+.s1-row2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sr2-1 {
+    width: 20%;
+    padding: 2% 0 0 0%;
+    margin: 0 0 0 -2%;
+}
+
+.sr2-2 {
+    width: 40%;
+}
+
+.sr2-3 {
+    width: 40%;
+}
+
+.s5 {
+    border: solid 2.3px grey;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.s6 {
+    /* border: solid 2.3px grey; */
+    border: none;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.s7 {
+    /* border: solid 2.3px grey; */
+    border: none;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
