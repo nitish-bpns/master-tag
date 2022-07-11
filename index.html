@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="navFoot.css" />
 
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>HashTag</title>
     <link rel="icon" type="image/x-icon" href="./images/hlogo.png">
 
@@ -18,7 +19,7 @@
     <!--  -->
     <!-- Navigation bar -->
 
-    <div class="navbar">
+    <div id="myTopnav" class="navbar">
         <a href="#" class="hash"><img class="nlogo" src="./images/logo.png"> </a>
         <a href="./features.html">
             <button class="buy-btn2">How it Works</button>
@@ -29,6 +30,9 @@
         <a href="./shop.html">
             <button class="buy-btn">Shop Now</button>
         </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
 
 
@@ -37,61 +41,84 @@
     <!--  -->
     <!-- Main body -->
 
-    <div class="main1">
-        <img class="img1" src="./images/main1.png" alt="main1">
+
+    <div class="desktop-view">
+
+
+        <div class="main1">
+            <img class="img1" src="./images/main1.png" alt="main1">
+        </div>
+        <div class="landing-page">
+
+            <center>
+                <div class="lp-part1">
+                    <img src="./images/Group 274.png" alt="" class="lp-img1" usemap="#lp-map-1">
+                    <map name="lp-map-1">
+                        <area shape="rect" coords="572,102,699,138" href="shop.html" alt="">
+                        <area shape="rect" coords="690,1051,818,1088" href="shop.html" alt="">
+                        <area shape="rect" coords="839,1052,968,1087" href="shop.html" alt="">
+                    </map>
+                </div>
+            </center>
+
+
+            <div class="lp-part2">
+                <img src="./images/Group 275.png" alt="" class="lp-img2">
+            </div>
+            <div class="lp-part3">
+                <img src="./images/Group 276.png" alt="" class="lp-img3" usemap="#lp-map-2">
+                <map name="lp-map-2">
+                    <area shape="rect" coords="0,0,132,24" href="features.html" alt="">
+                </map>
+            </div>
+            <div class="lp-part4">
+                <img src="./images/Group 278.png" alt="" class="lp-img4" usemap="#lp-map-3">
+                <map name="lp-map-3">
+                    <area shape="rect" coords="93,479,292,512" href="shop.html" alt="">
+                    <area shape="rect" coords="94,522,292,556" href="shop.html" alt="">
+                    <area shape="rect" coords="564,479,766,510" href="shop.html" alt="">
+                    <area shape="rect" coords="565,524,765,555" href="shop.html" alt="">
+                </map>
+            </div>
+            <div class="lp-part5">
+                <img src="./images/Group 279.png" alt="" class="lp-img5">
+            </div>
+            <div class="lp-part6">
+                <img src="./images/Group 280.png" alt="" class="lp-img6">
+            </div>
+            <div class="lp-part7">
+                <img src="./images/Group 281.png" alt="" class="lp-img-7">
+            </div>
+        </div>
+
+
+
     </div>
-    <div class="landing-page">
-        <div class="lp-part1">
-            <img src="./images/Group 274.png" alt="" class="lp-img1" usemap="#lp-map-1">
-            <map name="lp-map-1">
-                <area shape="rect" coords="572,102,699,138" href="shop.html" alt="">
-                <area shape="rect" coords="690,1051,818,1088" href="shop.html" alt="">
-                <area shape="rect" coords="839,1052,968,1087" href="shop.html" alt="">
-            </map>
-        </div>
-        <div class="lp-part2">
-            <img src="./images/Group 275.png" alt="" class="lp-img2" >
-        </div>
-        <div class="lp-part3">
-            <img src="./images/Group 276.png" alt="" class="lp-img3" onclick="/features.html" usemap="#lp-map-2">
-            <map name="lp-map-2">
-                <area shape="rect" coords="0,0,132,24" href="features.html" alt="">
-            </map>
-        </div>
-        <div class="lp-part4">
-            <img src="./images/Group 278.png" alt="" class="lp-img4" usemap="#lp-map-3">
-            <map name="lp-map-3">
-                <area shape="rect" coords="93,479,292,512" href="shop.html" alt="">
-                <area shape="rect" coords="94,522,292,556" href="shop.html" alt="">
-                <area shape="rect" coords="564,479,766,510" href="shop.html" alt="">
-                <area shape="rect" coords="565,524,765,555" href="shop.html" alt="">
-            </map>
-        </div>
-        <div class="lp-part5">
-            <img src="./images/Group 279.png" alt="" class="lp-img5">
-        </div>
-        <div class="lp-part6">
-            <img src="./images/Group 280.png" alt="" class="lp-img6">
-        </div>
-        <div class="lp-part7">
-            <img src="./images/Group 281.png" alt="" class="lp-img-7">
-        </div>
+
+
+
+    <!--  -->
+    <!-- for mobile view, start writing code from here ( within mobile view tag) -->
+
+
+    <div class="mobile-view">
+
+        <center>
+            <!-- <div class="mob-1"> -->
+            <img class="m-ind1" src="./images/m-ind1.png">
+            <!-- </div> -->
+        </center>
+
+
+
+
+
+
+
+
+
+
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -253,6 +280,30 @@
     </center>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
 
 
 
