@@ -8,8 +8,8 @@
 }
 
 .lp-part1 {
-    padding: 60px;
-    padding-bottom: 0;
+    padding: 60px 0 0 0;
+    /* padding-bottom: 0; */
 }
 
 .lp-img1 .lp-img2 {
