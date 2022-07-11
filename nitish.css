@@ -1,0 +1,1119 @@
+.topnav {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    margin-left: 18%;
+}
+
+.logo {
+    height: 100px;
+    margin-top: -50%;
+}
+
+/* .nav-head {
+    margin: 300px 0 0 0 !important;
+
+} */
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgb(209, 209, 209);
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+    background-color: rgb(209, 209, 209);
+    color: rgb(0, 0, 0);
+}
+
+.topnav a:after {
+    background-color: rgb(209, 209, 209);
+    color: rgb(0, 0, 0);
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+.bg1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-43%, 0%);
+    height: 26rem;
+}
+
+.card1 {
+    background-color: rgb(220, 230, 235);
+    opacity: 0.8;
+    padding: 1rem;
+    width: 23rem;
+    position: relative;
+    left: 15%;
+    top: 3rem;
+}
+
+.apk {
+    color: black;
+    font-size: 40px;
+    font-family: math;
+    font-weight: 600;
+
+}
+
+.mul {
+    color: rgb(146, 0, 0);
+    font-size: 40px;
+    font-family: math;
+    font-weight: 600;
+
+}
+
+.shipra {
+    font-size: 24px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.govt {
+    font-size: 17px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.btn1 {
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgb(146, 0, 0);
+    color: white;
+    padding: 3.5px 15px 3.5px 15px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: green !important;
+    transition: 400ms;
+}
+
+.btn1:after {
+    border: none;
+    background-color: green;
+}
+
+.abt-box {
+    /* position: absolute; */
+    width: 80%;
+    margin: 7% 0 0 0;
+    background-color: #dbe1e0b8;
+}
+
+.abt2 {
+    color: black;
+    font-size: 45px;
+    margin: 0% 0 0 0;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.abt3 {
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.abt4 {
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 70%;
+}
+
+.cols2 {
+    display: flex;
+    margin: 3% 0 0 10%;
+}
+
+.col-s {
+    width: 30%;
+}
+
+.col-s img {
+    border-radius: 50%;
+    height: 8rem;
+}
+
+.ser-head {
+    font-size: 16px;
+    margin: 9% 0 0 0%;
+}
+
+.ser2 {
+    font-size: 16px;
+}
+
+.btn2 {
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgb(153, 15, 15);
+    color: white;
+    padding: 10px 40px 10px 40px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    margin: 7% 0 15% 0;
+}
+
+.btn2:hover {
+    background-color: green !important;
+    transition: 400ms;
+}
+
+.btn2:after {
+    border: none;
+    background-color: green;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+
+.valuation {
+    background-color: #dbe1e0b8;
+}
+
+.value-head {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.card-button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: rgb(153, 15, 15);
+    text-align: center;
+    cursor: pointer;
+    width: 85%;
+    font-size: 18px;
+}
+
+.card-content {
+    margin-left: 5%;
+    /* text-align: left; */
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close-1 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-1:hover,
+.close-1:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close-2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-2:hover,
+.close-2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close-3 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-3:hover,
+.close-3:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close-4 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-4:hover,
+.close-4:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.val-cont1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.val-cont2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.val-cont3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.val-cont4 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.val-cont5 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.val-cont6 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.val-cont7 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.val-card1 {
+    width: 18%;
+    padding: 1% 3.5% 0 3.5%;
+}
+
+.val-card2 {
+    width: 18%;
+    padding: 1% 3.5% 0 3.5%;
+}
+
+.val-card2 {
+    width: 18%;
+    padding: 1% 3.5% 0 3.5%;
+}
+
+.val-card3 {
+    width: 25%;
+}
+
+.w3-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.w3-center-bank {
+    background-color: rgb(146, 15, 15);
+    width: 95%;
+    color: white;
+    border-radius: 5px;
+}
+
+.val-card4 {
+    width: 18%;
+    padding: 1% 1.5% 0 1.5%;
+}
+
+.val-card5 {
+    width: 18%;
+    padding: 1% 3.5% 0 3.5%;
+}
+
+.val-card6 {
+    width: 18%;
+    padding: 1% 3.5% 0 3.5%;
+}
+
+.val-card7 {
+    width: 18%;
+    padding: 1% 3.5% 0 3.5%;
+}
+
+.hr-val {
+    height: .3rem;
+    color: white;
+    background-color: white;
+}
+
+.testi-container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    height: 65vh;
+    width: auto;
+}
+
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 3px 3px 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(144, 0, 0, 0.8);
+}
+
+
+
+/* Next & previous buttons */
+.prev-testi,
+.next-testi {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+
+.prev-testi {
+    left: 10%;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.next-testi {
+    right: 10%;
+    border-radius: 3px 3px 3px 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-testi:hover,
+.next-testi:hover {
+    background-color: rgba(125, 125, 125, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    padding-left: 5vh;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+    height: 15vh;
+    width: auto;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.row {
+    margin: 0 0 0 0%;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+.testi1 {
+    margin-top: -3%;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 70%;
+}
+
+.testi2 {
+    font-size: 90px;
+}
+
+.form-inp {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+
+.inp1 {
+    color: #000000;
+    width: 38%;
+    padding: 12px 20px;
+    margin: 8px 2% 0 0;
+    /* box-sizing: border-box; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* border-bottom: 2px black; */
+}
+
+.inp2 {
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0 0 2%;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.inp3 {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.inp4 {
+    width: 80%;
+    height: 8rem;
+    padding: 1rem 12px 6rem 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.inp1:focus {
+    outline: none;
+}
+
+.inp2:focus {
+    outline: none;
+}
+
+.inp3:focus {
+    outline: none;
+}
+
+.inp4:focus {
+    outline: none;
+}
+
+.sub-btn {
+    background-color: rgb(146, 0, 0);
+    color: white;
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0 0 0%;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.sub-btn:hover {
+    background-color: white;
+    color: #000000;
+    transition: 400ms;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: rgb(212, 223, 223);
+}
+
+.iframe {
+    width: 80%;
+    height: 450px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.columnteam {
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 5%;
+}
+
+.pro-img {
+    height: 200px;
+    width: 90%;
+    margin-top: 4%;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.rowteam {
+    margin: 0 0 0 13%;
+    width: 80%;
+
+}
+
+.container::after,
+.rowteam::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.row-gal {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column-gal {
+    -ms-flex: 24%;
+    /* IE10 */
+    flex: 24%;
+    max-width: 24%;
+    padding: 0 4px;
+}
+
+.column-gal img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.container-team {
+    margin: 0 0 0 5%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+        margin: 10% 5% 0 0;
+    }
+
+    .topnav {
+        background-color: rgb(255, 255, 255);
+        overflow: hidden;
+        margin-left: 5%;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .logo {
+        height: 100px;
+        margin-top: 0%;
+    }
+
+    .columnteam {
+        width: 100%;
+        display: block;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 5%;
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+    .container::after,
+    .rowteam::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .title {
+        color: grey;
+    }
+
+    .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .button:hover {
+        background-color: #555;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 464px) {
+    .topnav {
+        background-color: rgb(255, 255, 255);
+        overflow: hidden;
+        margin-left: 1.5%;
+    }
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: #000000;
+        text-align: center;
+        padding: 3px 3px;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 10px 0 0 8%;
+    }
+
+    .logo {
+        height: 100px;
+        margin-top: 0%;
+    }
+
+    /* .bg1 {
+        position: absolute;
+        left: 1%;
+        transform: translate(0%, 0%);
+        height: 11.4rem;
+    } */
+    .bg1 {
+        /* position: absolute; */
+        /* left: 7%; */
+        transform: translate(-50%, 9%);
+        height: 15rem;
+    }
+
+    .iframe {
+        width: 300px;
+        height: 200px;
+    }
+
+    .card1 {
+        background-color: rgb(220, 230, 235);
+        opacity: 0.8;
+        padding: 1rem;
+        width: 16rem;
+        position: relative;
+        left: 15%;
+        top: 7rem;
+    }
+
+    .apk {
+        color: black;
+        font-size: 25px;
+        font-family: math;
+        font-weight: 600;
+
+    }
+
+    .mul {
+        color: rgb(209, 14, 14);
+        font-size: 25px;
+        font-family: math;
+        font-weight: 600;
+
+    }
+
+    .shipra {
+        font-size: 18px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .govt {
+        font-size: 13px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .cols2 {
+        display: flex;
+        margin: 3% 0 0 18%;
+        flex-wrap: wrap;
+    }
+
+    .col-s {
+        width: 80%;
+    }
+
+    .abt-box {
+        /* position: absolute; */
+        width: 80%;
+        margin: 12% 0 0 0;
+        background-color: #dbe1e0b8;
+    }
+
+    .testi1 {
+        margin-top: -15%;
+        font-size: 17px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width: 70%;
+    }
+
+    .btn2 {
+        font-size: 16px;
+        font-weight: 400;
+        background-color: rgb(153, 15, 15);
+        color: white;
+        padding: 10px 40px 10px 40px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        margin: 1% 0 8% 0;
+    }
+
+    .rowteam {
+        margin: 0 0 0 7%;
+        width: 80%;
+    }
+
+    .column-gal {
+        /* -ms-flex: 100%; */
+        flex: 40%;
+        max-width: 100%;
+    }
+
+    .container {
+        padding: 0 0px;
+    }
+
+    .inp3 {
+        width: 91%;
+    }
+
+    .inp4 {
+        width: 91%;
+    }
+
+    .container-team {
+        margin: 0 0 0 5%;
+    }
+
+    .row {
+        display: none;
+    }
+
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 54%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+
+    .mySlides img {
+        /* width: auto; */
+        width: 90%;
+    }
+
+    .value-head {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .val-cont1 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .val-card1 {
+        width: 41%;
+        padding: 1% 3.5% 0 3.5%;
+    }
+
+    .val-cont2 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .val-card2 {
+        width: 41%;
+        padding: 1% 3.5% 0 3.5%;
+    }
+
+    .val-cont3 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .val-card3 {
+        width: 90%;
+        padding: 1% 3.5% 3% 3.5%;
+    }
+
+    .val-cont4 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .val-card4 {
+        width: 90%;
+        padding: 1% 3.5% 0 3.5%;
+    }
+
+    .val-cont5 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .val-card5 {
+        width: 41%;
+        padding: 1% 3.5% 0 3.5%;
+    }
+
+    .val-cont6 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .val-card6 {
+        width: 41%;
+        padding: 1% 3.5% 0 3.5%;
+    }
+
+    .val-cont7 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .val-card7 {
+        width: 41%;
+        padding: 1% 3.5% 0 3.5%;
+    }
+
+
+
+
+
+
+
+
+}
