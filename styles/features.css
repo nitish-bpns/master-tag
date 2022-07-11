@@ -1,3 +1,192 @@
 .feat1 {
-    padding: 6% 0 0 0;
+  padding: 6% 0 0 0;
+  text-align: center;
+  height: 215px;
+}
+.text1 {
+  font-size: 35px;
+  color: #1e2a39;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 58px;
+  font-family: roboto;
+}
+.text2 {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #5c6272;
+}
+.text3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  left: 384px;
+  top: 190px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 10px 0;
+}
+.t31 {
+  color: #fe0000;
+  text-decoration: underline;
+}
+.t32 {
+  text-decoration: underline;
+}
+.t33 {
+  text-decoration: underline;
+}
+.btn-1 {
+  align-items: center;
+  color: white;
+  text-align: center;
+  width: 149px;
+  background: #fe0000;
+  border-radius: 12px;
+  border: none;
+  padding: 8px 23px;
+  font-size: 14px;
+  line-height: 30px;
+  margin-top: 8px;
+  box-shadow: inset 0 0 0 0 white;
+}
+.btn-1:hover {
+  border: #5c6272 solid 2px;
+  transition: 1.5s;
+  box-shadow: inset 200px 0 0px 0px white;
+  color: black;
+  cursor: pointer;
+}
+.ts {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.ts :hover {
+  color: #fe0000;
+}
+
+.gif1 {
+  position: relative;
+  transform: rotate(45deg);
+  top: -315px;
+  right: -331px;
+  width: 100px;
+}
+.gif2 {
+  position: relative;
+  transform: rotate(62deg);
+  right: -331px;
+  top: -276px;
+  right: 108px;
+  width: 140px;
+ 
+}
+.cont1 {
+  align-items: center;
+  height: 377px;
+}
+.cont2 {
+  align-items: center;
+  height: 377px;
+}
+.cont3 {
+  align-items: center;
+  height: 377px;
+}
+.img11 {
+  height: 162.37px;
+}
+.img12 {
+  height: 102.37px;
+}
+
+
+
+.img1 {
+  padding-top: 6%;
+}
+body,html{
+    scroll-behavior: smooth;
+}
+.testi1 {
+    margin-top: -3%;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 70%;
+}
+
+.testi2 {
+    font-size: 90px;
+}.prev-testi {
+    left: 10%;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.next-testi {
+    right: 10%;
+    border-radius: 3px 3px 3px 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-testi:hover,
+.next-testi:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.prev-testi,
+.next-testi {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color:#fe0000;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.abt-box {
+    /* position: absolute; */
+    width: 80%;
+    margin: 7% 0 0 0;
+    background-color: #ffffffb8;
+   box-shadow: inset 0px 0px 20px 4px gray;
+}
+
+.abt2 {
+    color: black;
+    font-size: 45px;
+    margin: 0% 0 0 0;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.abt3 {
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.abt4 {
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 70%;
+}
+
+.testi-container {
+    position: relative;
+}
+.foot{
+    padding-top: 92px;
+    margin-bottom: -109px;
+    margin-top: -52px;
 }
