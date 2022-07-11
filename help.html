@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="navFoot.css" />
 
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Help</title>
     <link rel="icon" type="image/x-icon" href="./images/hlogo.png">
 
@@ -18,7 +19,7 @@
     <!--  -->
     <!-- Navigation bar -->
 
-    <div class="navbar">
+    <!-- <div class="navbar">
         <a href="./index.html" class="hash"><img class="nlogo" src="./images/logo.png"> </a>
         <a href="features.html">
             <button class="buy-btn2">How it Works</button>
@@ -30,12 +31,43 @@
             <button class="buy-btn">Shop Now</button>
         </a>
     </div>
+    <span class="above-spacing"></span> -->
+
+    <div id="myTopnav" class="navbar">
+        <a href="index.html" class="hash"><img class="nlogo" src="./images/logo.png"> </a>
+        <a href="./features.html">
+            <button class="buy-btn2">How it Works</button>
+        </a>
+        <a href="#">
+            <button class="buy-btn2">Help</button>
+        </a>
+        <a href="shop.html">
+            <button class="buy-btn">Shop Now</button>
+        </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
 
 
 
 
     <!--  -->
     <!-- Main body -->
+    <div class="help-page">
+        <div class="top-part">
+            <img src="./images/Group 286.png" alt="" class="help-thumbnail">
+        </div>
+        <div class="bottom-part">
+            <img src="./images/Group 287.png" alt="" class="quiry-page" usemap="#howToTrouble">
+            <map name="howToTrouble">
+                <area shape="rect" coords="11,81,378,302" href="/howTo/how1.html" alt="">
+                <area shape="rect" coords="409,81,776,302" href="/troubleshoot/trouble1.html" alt="">
+                <area shape="rect" coords="358,443,542,456" href="support@mastertag.in" alt="">
+            </map>
+        </div>
+    </div>
 
 
 
@@ -50,16 +82,6 @@
 
 
 
-
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
 
 
 
@@ -208,6 +230,22 @@
 
 
 
+
+
+
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
 
 
 </body>

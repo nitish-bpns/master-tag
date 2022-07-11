@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../navFoot.css" />
 
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>MasterTag/Shipping</title>
     <link rel="icon" type="image/x-icon" href="./images/hlogo.png">
 
@@ -17,8 +18,7 @@
 <body>
     <!--  -->
     <!-- Navigation bar -->
-
-    <div class="navbar">
+    <div id="myTopnav" class="navbar">
         <a href="../index.html" class="hash"><img class="nlogo" src="./images/logo.png"> </a>
         <a href="../features.html">
             <button class="buy-btn2">How it Works</button>
@@ -29,9 +29,10 @@
         <a href="../shop.html">
             <button class="buy-btn">Shop Now</button>
         </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
-
-
 
 
     <!--  -->
@@ -211,6 +212,17 @@
 
 
 
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
 
 
 </body>

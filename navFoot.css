@@ -205,7 +205,7 @@ a:active {
     color: #5E5E5E;
     text-align: center;
     background-color: #ECECEC;
-
+    padding: 2% 0 1% 0;
 }
 
 .ftext1 {
@@ -222,4 +222,222 @@ a:hover,
 a:active {
     color: #5E5E5E;
     text-decoration: none;
+}
+
+.flogo {
+    width: auto;
+}
+
+
+.navbar .icon {
+    display: none;
+}
+
+.desktop-view {
+    display: block;
+}
+
+.mobile-view {
+    display: none;
+}
+
+
+@media screen and (max-width: 464px) {
+
+    /*  */
+    /* Hiding desktop view */
+
+
+    .desktop-view {
+        display: none;
+    }
+
+    .mobile-view {
+        display: block;
+        padding: 15% 0 0 0;
+    }
+
+    .navbar a:not(:first-child) {
+        display: none;
+    }
+
+    /* .hn2,
+    .hn3.hn4 {
+        display: none;
+    } */
+
+    .navbar a.icon {
+        /* float: right; */
+        display: block;
+    }
+
+    .navbar.responsive {
+        /* position: relative; */
+    }
+
+    .navbar.responsive .icon {
+        position: absolute;
+        right: 32px;
+        top: 20px;
+    }
+
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        padding: 0 0 5px 0;
+    }
+
+
+
+    /* old navbar mobile */
+
+    .hash {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 8px 16px;
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 25px;
+        font-weight: 600;
+        margin: 0 63% 0 6%;
+    }
+
+    /* footer mobile */
+
+
+    .foot1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 3% 3% 0 3%;
+        background-color: #ECECEC;
+    }
+
+    .foot-col1 {
+        width: 90%;
+        padding: 0 5% 0 5%;
+        /* background-color: aqua; */
+    }
+
+    .foot-col2 {
+        width: 24%;
+        padding: 0 0% 0% 8%;
+        font-size: 14px;
+        line-height: 29px;
+        color: #5E5E5E;
+        /* float: right; */
+        /* background-color: antiquewhite; */
+    }
+
+    .foot-col3 {
+        width: 24%;
+        padding: 0 0% 0% 9%;
+        font-size: 14px;
+        line-height: 29px;
+        color: #5E5E5E;
+
+        /* background-color: orange; */
+    }
+
+    .foot-col4 {
+        width: 27%;
+        padding: 0px 0% 0% 8%;
+        font-size: 14px;
+        line-height: 29px;
+        color: #5E5E5E !important;
+        text-decoration: none !important;
+        /* background-color: lightgreen; */
+    }
+
+    .fcol1-row1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 0 6% 0;
+    }
+
+    .fcol11 {
+        width: 52%;
+    }
+
+    .fcol12 {
+        width: 48%;
+        /* float: right; */
+    }
+
+
+    .icon {
+        padding: 18px 2px 2px 2px;
+        /* height: 30px;*/
+        /*width: 14%;*/
+    }
+
+    .iconf1 {
+        height: 20px;
+        width: 20px;
+        padding: 1.5%;
+
+    }
+
+    .iconf2 {
+        height: 20px;
+        width: 10px;
+        padding: 1.5%;
+    }
+
+    .iconf3 {
+        height: 18px;
+        width: 19px;
+        padding: 1.5%;
+    }
+
+    .iconf4 {
+        height: 20px;
+        width: 18px;
+        padding: 1.5%;
+    }
+
+    .iconf5 {
+        height: 20px;
+        width: 20px;
+        padding: 1.5%;
+    }
+
+    .iconf6 {
+        height: 17px;
+        width: 21px;
+        padding: 1.5% 0 1.5% 1.5%;
+    }
+
+    .flogo {
+        width: 70%;
+    }
+
+    .fcol1-row2 {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: justify;
+        font-family: poppins;
+        color: #5E5E5E;
+        /* width: 98%; */
+    }
+
+    .last-line {
+        font-size: 14px;
+        line-height: 20px;
+        color: #5E5E5E;
+        text-align: center;
+        background-color: #ECECEC;
+        padding: 2% 0 1% 0;
+
+    }
+
+    .ftext1 {
+        text-decoration: none !important;
+    }
+
+    .ftext2 {
+        font-size: 16px;
+    }
+
+
 }

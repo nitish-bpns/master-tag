@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="navFoot.css" />
 
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Features</title>
     <link rel="icon" type="image/x-icon" href="./images/hlogo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +22,7 @@
     <!--  -->
     <!-- Navigation bar -->
 
-    <div class="navbar">
+    <!-- <div class="navbar">
         <a href="./index.html" class="hash"><img class="nlogo" src="./images/logo.png"> </a>
         <a href="#">
             <button class="buy-btn2">How it Works</button>
@@ -32,8 +33,24 @@
         <a href="./shop.html">
             <button class="buy-btn">Shop Now</button>
         </a>
-    </div>
+    </div> -->
 
+
+    <div id="myTopnav" class="navbar">
+        <a href="index.html" class="hash"><img class="nlogo" src="./images/logo.png"> </a>
+        <a href="#">
+            <button class="buy-btn2">How it Works</button>
+        </a>
+        <a href="help.html">
+            <button class="buy-btn2">Help</button>
+        </a>
+        <a href="shop.html">
+            <button class="buy-btn">Shop Now</button>
+        </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
 
 
@@ -56,6 +73,8 @@
             </div>
             <div class="img2">
                 <img src="features images/f2.png" alt="loading...">
+
+
 
             </div class="img3">
             <img src="features images/f3.png" alt="loading...">
@@ -85,86 +104,7 @@
             <br><br><br>
 
 
-
-            <div class="testi-container">
-
-
-
-                <div class="myTestis">
-                    <center>
-                        <div class="abt-box" id="testi">
-                            <p class="abt2">Testimonials</p>
-                            <br>
-                            <p class="testi1">
-                                <i><img src="features images/testimo.svg" alt="review"></i>
-                            </p>
-                            <p class="testi1">
-                                <i>
-                                    MasterTag ensures the safety of your assets, which makes you feel relaxed if lost
-                                    something and want to find it.
-                                    and also with its additional features it simply stands out of the box. and also with
-                                    its additional features.
-
-                                </i>
-                            </p>
-                            <br>
-                            <br>
-
-                            <br>
-                            <br>
-                        </div>
-                    </center>
-                </div>
-
-                <div class="myTestis">
-                    <center>
-                        <div class="abt-box" id="testi">
-                            <p class="abt2">Testimonials</p>
-                            <br>
-                            <div class="testi1">
-                                <i><img src="features images/testimo.svg" alt="review"></i>
-                            </div>
-                            <p class="testi1">
-                                <i>
-                                    MasterTag ensures the safety of your assets, which makes you feel relaxed if lost
-                                    something and want to find it.
-                                    and also with its additional features it simply stands out of the box. and also with
-                                    its additional features.
-
-                                </i>
-                            </p>
-                            <br>
-                            <br>
-
-                            <br>
-                            <br>
-                        </div>
-                    </center>
-                </div>
-
-                <div class="myTestis">
-                    <center>
-                        <div class="abt-box" id="testi1">
-                            <p class="abt2">Testimonials</p>
-                            <br>
-                            <div class="testi1">
-                                <i><img src="features images/testimo.svg" alt="review"></i>
-                            </div>
-                            <p class="testi1">
-                                <i>
-                                    MasterTag ensures the safety of your assets, which makes you feel relaxed if lost
-                                    something and want to find it.
-                                    and also with its additional features it simply stands out of the box. and also with
-                                    its additional features.
-                                </i>
-                            </p>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                        </div>
-                    </center>
-                </div>
+   
 
 
 
@@ -184,22 +124,14 @@
 
 
 
-                <a class="prev-testi" onclick="plusTesti(-1)">❮</a>
-                <a class="next-testi" onclick="plusTesti(1)">❯</a>
+              
 
 
 
         </center>
 
 
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+   
 
 
         <!--  -->
@@ -381,6 +313,20 @@
 
 
         <script src="main.js"></script>
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
+
 
 </body>
 
