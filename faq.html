@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./styles/faq.css" />
     <link rel="stylesheet" type="text/css" href="navFoot.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/shop.css" />
+
 
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -53,24 +55,151 @@
     <!--  -->
     <!-- Main body -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <br>
-    <br>
-    <br>
-    <br>
+    <center>
+        <div class="c-ques">
+            <div class="que-headf">
+                FAQs
+            </div>
+
+            <hr class="hr-line">
+
+            <button class="accordion">
+
+                <div class="ques-row">
+                    <span class="ques-txt">
+                        What is MasterTag ’s Bluetooth finding range?
+                    </span>
+                </div>
+
+            </button>
+            <div class="panel">
+                <p>Our MasterTag has a range up to 459ft / 140m. However, as with all wireless technologies, different
+                    environments impact the effective range of Bluetooth signals. If your MasterTag is out of Bluetooth
+                    range, you can check its last known location on the app. This information is automatically updated
+                    whenever anyone in the MasterTag community comes within Bluetooth range of your MasterTag . All
+                    location and user information is secure and used exclusively for finding accuracy. MasterTag does
+                    not sell any user data.</p>
+            </div>
+
+            <hr class="hr-line">
+
+            <button class="accordion">
+                <div class="ques-row">
+                    <span class="ques-txt">
+                        How does this compare to a GPS device?
+                    </span>
+                </div>
+            </button>
+            <div class="panel">
+                <p>Bluetooth and GPS trackers differ in many ways. In general, GPS trackers maintain a constant
+                    connection via satellite and provide real-time tracking. Bluetooth trackers work within a shorter
+                    range and are dependent on a connection to a Bluetooth enabled device. Bluetooth trackers typically
+                    cost less, are lighter, and use less power.<br>
+                    Our tiny MasterTag is designed to fit on a variety of assets, including a TV remote!</p>
+            </div>
+            <!-- <img class="imgb20" src="./images/img20.png"> -->
+
+            <hr class="hr-line">
+
+            <button class="accordion">
+                <div class="ques-row">
+                    <span class="ques-txt">
+                        How can I attach a MasterTag to my items?
+                    </span>
+                    <!-- <img class="imgb20" src="./images/img20.png"> -->
+                </div>
+            </button>
+            <div class="panel">
+                <p>There are three different ways to attach your MasterTag to an asset.<br>
+                    1. <span class="simple">Stick</span> MasterTag to your items like a laptop, camera, chargers, etc.
+                    using MasterTag Stickers.<br>
+                    2. <span class="simple">Slide</span> MasterTag into your backpack, purse, or luggage pockets. <br>
+                    3. <span class="simple">Tag</span> MasterTag to your items/pets/kids using the MasterTag case. </p>
+            </div>
+
+            <hr class="hr-line">
+
+            <button class="accordion">
+                <div class="ques-row">
+                    <span class="ques-txt">
+                        How strong is the adhesive on MasterTag Stickers?
+                    </span>
+                    <!-- <img class="imgb20" src="./images/img20.png"> -->
+                </div>
+            </button>
+            <div class="panel">
+                <p>Once applied, the adhesive bond will completely cure after 24 hours for maximum staying power! It
+                    uses a non-toxic adhesive and is meant for a one-time application. Please be aware that removing and
+                    reapplying MasterTag Stickers will decrease the efficacy of the adhesive.</p>
+            </div>
+
+            <hr class="hr-line">
+
+            <button class="accordion">
+                <div class="ques-row">
+                    <span class="ques-txt">
+                        What if I want to remove the MasterTag Sticker and attach it to a different item?
+                    </span>
+                    <!-- <img class="imgb20" src="./images/img20.png"> -->
+                </div>
+            </button>
+            <div class="panel">
+                <p>If you are not able to pull your MasterTag off an item by hand, we recommend applying adhesive
+                    remover
+                    or heating it with a blowdryer to remove it. This should loosen the adhesive’s bond so that you can
+                    use something sturdy (e.g., a credit card or guitar pick) to slide underneath and pry it off. Once a
+                    MasterTag Sticker is removed from an object, you will need a new MasterTag Sticker to reattach it to
+                    something
+                    new.</p>
+            </div>
+
+            <hr class="hr-line">
+
+            <button class="accordion">
+                <div class="ques-row">
+                    <span class="ques-txt">
+                        Do I need to pay to use MasterTag’s finding features?
+                    </span>
+                    <!-- <img class="imgb20" src="./images/img20.png"> -->
+                </div>
+            </button>
+            <div class="panel">
+                <p>No, the app is free to use for our core finding features like ring MasterTag , find my phone, see its
+                    location on a map, share with a friend, and community find.<br><br>
+
+                    Premium unlocks more features like MasterTag Alerts, 30 Day Location History, Unlimited Sharing, and
+                    Free
+                    Battery Replacements.</p>
+            </div>
+
+            <hr class="hr-line">
+
+            <button class="accordion">
+                <div class="ques-row">
+                    <span class="ques-txt">
+                        What phones and tablets are compatible with MasterTag ?
+                    </span>
+                    <!-- <img class="imgb20" src="./images/img20.png"> -->
+                </div>
+            </button>
+            <div class="panel">
+                <p>MasterTag works with most iOS and Android devices.</p>
+            </div>
+
+            <hr class="hr-line">
+        </div>
+    </center>
+
+
+
+
+
+
+
+
+
+
     <br>
     <br>
     <br>
@@ -236,6 +365,25 @@
             }
         }
     </script>
+
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+
 
 
 </body>

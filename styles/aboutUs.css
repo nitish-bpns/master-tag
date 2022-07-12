@@ -1,0 +1,20 @@
+.abt1 {
+    padding: 4% 0 0 0;
+    width: 100%;
+}
+
+.abt4 {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 464px) {
+    .abt1 {
+        padding: 2.5% 0 0 0;
+
+    }
+
+    .abt8 {
+        width: 100%;
+    }
+}

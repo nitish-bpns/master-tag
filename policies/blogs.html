@@ -10,6 +10,7 @@
 
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <title>MasterTag/Blogs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="./images/hlogo.png">
 
 </head>
@@ -18,7 +19,7 @@
     <!--  -->
     <!-- Navigation bar -->
 
-    <div class="navbar">
+    <div id="myTopnav" class="navbar">
         <a href="../index.html" class="hash"><img class="nlogo" src="./images/logo.png"> </a>
         <a href="../features.html">
             <button class="buy-btn2">How it Works</button>
@@ -29,7 +30,11 @@
         <a href="../shop.html">
             <button class="buy-btn">Shop Now</button>
         </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
+
 
 
 
@@ -48,44 +53,56 @@
             <div class="pr-cont2">
                 <p>
                     Useful information to help you find your lost MasterTag<br>
-                    <p style="margin-top: -5px;">
-                        <ul>
-                            <li>The actual MasterTag does not have its own data connection. The MasterTag connects via Bluetooth to your mobile 
-                                device to access its GPS location to make location updates.</li>
-                            <li>The MasterTag has to be within Bluetooth range to make a connection and get a location update.</li>
-                            <li>When you view your MasterTag’s location history, remember that the last location update for your MasterTag is the last 
-                                time and place your MasterTag was within Bluetooth range of a mobile device and made a connection. It is possible 
-                                that the MasterTag is no longer there if it has moved since its last location update.</li>
-                            <li>Note that the MasterTag could be upstairs or downstairs because Google maps do not render in 3 dimensions.</li>
-                          </ul>
-                    </p>
+                <p style="margin-top: -5px;">
+                <ul>
+                    <li>The actual MasterTag does not have its own data connection. The MasterTag connects via Bluetooth
+                        to your mobile
+                        device to access its GPS location to make location updates.</li>
+                    <li>The MasterTag has to be within Bluetooth range to make a connection and get a location update.
+                    </li>
+                    <li>When you view your MasterTag’s location history, remember that the last location update for your
+                        MasterTag is the last
+                        time and place your MasterTag was within Bluetooth range of a mobile device and made a
+                        connection. It is possible
+                        that the MasterTag is no longer there if it has moved since its last location update.</li>
+                    <li>Note that the MasterTag could be upstairs or downstairs because Google maps do not render in 3
+                        dimensions.</li>
+                </ul>
+                </p>
 
                 </p>
                 <br>
                 <p>
                     Find your lost MasterTag<br>
-                    <p style="margin-top: -5px;">
-                        <ul>
-                            <li>Check your permission settings to make sure your mobile device is set up for MasterTag features to work correctly.</li>
-                            <li>On your MasterTag app, select the MasterTag you wish to find.</li>
-                            <li>Tap the ‘Play Sound’ button.</li>
-                            <li>If the ‘Play Sound’ button is not available and you are sure you are within Bluetooth range of your MasterTag, allow 2 minutes to connect to the MasterTag. If you are in a place with multiple rooms, give each room this amount of time before moving to the next. MasterTag’s Bluetooth signal is susceptible to signal and environmental interference. So building structures like walls, floors, and doors can reduce your MasterTag’s connection range.</li>
-                            <li>Once the ‘Play Sound’ button becomes available, tap the button to ring your MasterTag.</li>
-                          </ul>
-                    </p>
+                <p style="margin-top: -5px;">
+                <ul>
+                    <li>Check your permission settings to make sure your mobile device is set up for MasterTag features
+                        to work correctly.</li>
+                    <li>On your MasterTag app, select the MasterTag you wish to find.</li>
+                    <li>Tap the ‘Play Sound’ button.</li>
+                    <li>If the ‘Play Sound’ button is not available and you are sure you are within Bluetooth range of
+                        your MasterTag, allow 2 minutes to connect to the MasterTag. If you are in a place with multiple
+                        rooms, give each room this amount of time before moving to the next. MasterTag’s Bluetooth
+                        signal is susceptible to signal and environmental interference. So building structures like
+                        walls, floors, and doors can reduce your MasterTag’s connection range.</li>
+                    <li>Once the ‘Play Sound’ button becomes available, tap the button to ring your MasterTag.</li>
+                </ul>
+                </p>
 
                 </p>
                 <br>
                 <p>
                     MasterTag app features that help you find your lost MasterTag<br>
-                    <p style="margin-top: -5px;">
-                        <ul>
-                            <li>MasterTag Detector : shows Bluetooth signal strength to help you know when you are getting closer to your MasterTag.</li>
-                            <li>Find Your Tile on the Map : shows your MasterTag's last location.</li>
-                            <li>Notify When Found : allows the MasterTag Network to provide location updates for your lost MasterTag.</li>
-            
-                          </ul>
-                    </p>
+                <p style="margin-top: -5px;">
+                <ul>
+                    <li>MasterTag Detector : shows Bluetooth signal strength to help you know when you are getting
+                        closer to your MasterTag.</li>
+                    <li>Find Your Tile on the Map : shows your MasterTag's last location.</li>
+                    <li>Notify When Found : allows the MasterTag Network to provide location updates for your lost
+                        MasterTag.</li>
+
+                </ul>
+                </p>
 
                 </p>
                 <br>
@@ -101,10 +118,11 @@
 
 
 
-If you are unable to activate your Tile after completing the steps above, contact us for additional assistance.
-<br> <br>
+                    If you are unable to activate your Tile after completing the steps above, contact us for additional
+                    assistance.
+                    <br> <br>
 
-Contact us at team@mastertag.in
+                    Contact us at team@mastertag.in
                 </p>
             </div>
             <br><br>
@@ -114,7 +132,6 @@ Contact us at team@mastertag.in
             <br>
         </center>
     </div>
-   
 
 
 
@@ -122,7 +139,8 @@ Contact us at team@mastertag.in
 
 
 
- 
+
+
 
 
 
@@ -288,6 +306,21 @@ Contact us at team@mastertag.in
 
 
 
+
+
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
 
 
 </body>
