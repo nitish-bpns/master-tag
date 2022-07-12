@@ -56,6 +56,62 @@
 
 
 
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    height: 65vh;
+    width: auto;
+}
+
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+/* .prev{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+} */
+
+/* Position the "next button" to the right */
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(227, 227, 227, 0.8);
+}
+
 
 
 @media screen and (max-width: 464px) {
@@ -63,6 +119,55 @@
 
     .m-ind1 {
         width: 100vw;
+    }
+
+    .m-ind7 {
+        width: 100%;
+    }
+
+    /* .m-ind8 {
+        position: relative;
+    } */
+
+    .container {
+        position: relative;
+    }
+
+    .prev {
+        cursor: pointer;
+        position: absolute;
+        top: 25%;
+        left: 3%;
+        /* width: auto; */
+        padding: 16px;
+        /* margin-top: -50px; */
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 25%;
+        /* width: auto; */
+        padding: 16px;
+        right: 3%;
+        /* margin-top: -50px; */
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+
+    .mySlides img {
+        /* width: auto; */
+        width: 100%;
     }
 
 

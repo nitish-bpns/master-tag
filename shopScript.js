@@ -56,8 +56,8 @@ btn1.addEventListener('click', function () {
     // pack3.src = './images/s7.png';
 
     pack1.style.border = 'solid 2.3px grey';
-    pack2.style.border = 'none';
-    pack3.style.border = 'none';
+    pack2.style.border = 'solid 2.3px white';
+    pack3.style.border = 'solid 2.3px white';
 
     target4.src = './images/s14.svg';
 
@@ -259,8 +259,8 @@ btn2.addEventListener('click', function () {
     // pack3.src = './images/s7.png';
 
     pack2.style.border = 'solid 2.3px grey';
-    pack1.style.border = 'none';
-    pack3.style.border = 'none';
+    pack1.style.border = 'solid 2.3px white';
+    pack3.style.border = 'solid 2.3px white';
 
     target4.src = './images/s15.svg';
 
@@ -461,8 +461,8 @@ btn3.addEventListener('click', function () {
     // pack3.src = './images/s10.png';
 
     pack3.style.border = 'solid 2.3px grey';
-    pack1.style.border = 'none';
-    pack2.style.border = 'none';
+    pack1.style.border = 'solid 2.3px white';
+    pack2.style.border = 'solid 2.3px white';
 
     target4.src = './images/s16.svg';
 

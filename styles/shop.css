@@ -23,6 +23,16 @@
 
 }
 
+.s1,
+.s2,
+.s3 {
+    width: auto;
+}
+
+.s4 {
+    width: auto;
+}
+
 .s1-row2 {
     display: flex;
     flex-wrap: wrap;
@@ -46,6 +56,7 @@
     border: solid 2.3px grey;
     padding: 0.5rem;
     border-radius: 8px;
+    width: auto;
 }
 
 .s6 {
@@ -53,6 +64,7 @@
     border: none;
     padding: 0.5rem;
     border-radius: 8px;
+    width: auto;
 }
 
 .s7 {
@@ -264,4 +276,115 @@
 
 .img1 {
     padding-top: 6%;
+}
+
+.s14 {
+    width: auto;
+    margin: 0 0 6% 0;
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 464px) {
+
+    .shop1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 22% 12% 0 13%;
+    }
+
+    .s1-col1 {
+        width: 10%;
+        padding: 9% 0 0 0;
+    }
+
+    .s1-col2 {
+        width: 48%;
+        padding: 5% 0 0 25%;
+
+    }
+
+    .s1-col3 {
+        width: 100%;
+        border: solid #959595 2.5px;
+        padding: 6%;
+        border-radius: 20px;
+        margin: 10% 0 0 0;
+    }
+
+    .s4 {
+        width: 200px;
+    }
+
+    .s1,
+    .s2,
+    .s3 {
+        width: 60px;
+    }
+
+    .s14 {
+        width: 100%;
+        margin: 0 0 3% 0;
+    }
+
+    .s1-row2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sr2-1 {
+        width: 20%;
+        padding: 2% 0 0 0%;
+        margin: 0 0 0 -2%;
+    }
+
+    .sr2-2 {
+        width: 40%;
+    }
+
+    .sr2-3 {
+        width: 40%;
+    }
+
+    .s5 {
+        border: solid 2.3px grey;
+        padding: 3px;
+        border-radius: 8px;
+
+    }
+
+    .s6 {
+        /* border: solid 2.3px grey; */
+        border: none;
+        padding: 3px;
+        border-radius: 8px;
+        width: 56%;
+    }
+
+    .s7 {
+        /* border: solid 2.3px grey; */
+        border: none;
+        padding: 5px;
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    .msh1 {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
 }
