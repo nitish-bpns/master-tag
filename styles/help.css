@@ -1,10 +1,17 @@
 .above-spacing {
     margin-top: 73px;
 }
+
 .help-thumbnail {
     margin-top: 73px;
 }
+
 .bottom-part {
     text-align: center;
     padding: 60px;
+}
+
+.helpthu {
+    width: 100%;
+    padding: 4% 0 0 0;
 }
