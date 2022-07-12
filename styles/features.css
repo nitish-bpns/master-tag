@@ -140,3 +140,76 @@ html {
     margin-bottom: -109px;
     margin-top: -52px;
 }
+
+
+@media screen and (max-width: 464px) {
+
+    .feat1 {
+        width: 100%;
+    }
+
+    .text1 {
+        font-size: 35px;
+        color: #1e2a39;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 50px;
+        font-family: roboto;
+    }
+
+    .text2 {
+        font-family: "roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        color: #5c6272;
+    }
+
+    .text3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 22px;
+        left: 384px;
+        top: 190px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 23px;
+        padding: 10px 0;
+    }
+
+    .btn-1 {
+        align-items: center;
+        color: white;
+        text-align: center;
+        width: 142px;
+        background: #fe0000;
+        border-radius: 12px;
+        border: none;
+        padding: 8px 23px;
+        font-size: 14px;
+        line-height: 23px;
+        margin-top: 8px;
+        box-shadow: inset 0 0 0 0 white;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

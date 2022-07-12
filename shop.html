@@ -166,6 +166,15 @@
 
     <div class="mobile-view">
         <img class="msh1" src="./images/m-sh1.png">
+
+        <!-- gifs -->
+
+
+        <!-- -->
+        <center>
+            <img class="msh2" src="./images/m-sh2.png">
+
+        </center>
     </div>
 
 
@@ -303,6 +312,9 @@
 
             <hr class="hr-line">
         </div>
+        <br>
+        <br>
+        <br>
     </center>
 
     <div class="desktop-view">
@@ -314,6 +326,51 @@
             <img src="images/Group 281.png" alt="" class="sp-img5">
         </div>
 
+    </div>
+
+
+    <div class="mobile-view2">
+
+        <br>
+        <center>
+            <img class="m-ind2" src="./images/rev-head.png">
+
+
+            <div class="container">
+
+                <center>
+                    <div class="mySlides">
+                        <!-- <div class="numbertext">1 / 6</div> -->
+                        <img src="./images/rev1.png">
+                    </div>
+
+                    <div class="mySlides">
+                        <!-- <div class="numbertext">2 / 6</div> -->
+                        <img src="./images/rev2.png">
+                    </div>
+
+                    <div class="mySlides">
+                        <!-- <div class="numbertext">3 / 6</div> -->
+                        <img src="./images/rev3.png">
+                    </div>
+
+
+
+                </center>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                <br>
+
+            </div>
+
+        </center>
+        <center>
+            <img class="m-ind2" src="./images/m-ind9.png">
+            <br>
+            <br> <br> <br> <br>
+        </center>
     </div>
 
 
@@ -519,6 +576,41 @@
                 x.className = "navbar";
             }
         }
+    </script>
+
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+
+            console.log('working');
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("demo");
+            let captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+
     </script>
 
 
