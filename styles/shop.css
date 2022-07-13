@@ -30,7 +30,7 @@
 }
 
 .s4 {
-    width: 20rem;
+    width: auto;
 }
 
 .s1-row2 {
@@ -147,7 +147,7 @@
 }
 
 .accordion:after {
-    content: url(../images/down.png);
+    content: url(/images/down.png);
     color: rgb(255, 255, 255);
     font-weight: bold;
     float: right;
@@ -173,7 +173,7 @@
 }
 
 .accordion:after {
-    content: url(../images/down.png);
+    content: url(/images/down.png);
     color: rgb(255, 255, 255);
     font-weight: bold;
     float: right;
@@ -181,7 +181,7 @@
 }
 
 .active:after {
-    content: url(../images/up.png);
+    content: url(/images/up.png);
 }
 
 
@@ -234,17 +234,17 @@
 .gif1 {
     position: relative;
     transform: rotate(45deg);
-    top: -315px;
-    right: -331px;
+    top: -20rem;
+    right: -20rem;
     width: 100px;
 }
 
 .gif2 {
     position: relative;
     transform: rotate(62deg);
-    right: -331px;
-    top: -276px;
-    right: 108px;
+    
+    top: -17.5rem;
+    right: 7rem;
     width: 140px;
 
 }
@@ -308,13 +308,13 @@
     }
 
     .s1-col1 {
-        width: 35%;
+        width: 10%;
         padding: 9% 0 0 0;
     }
 
     .s1-col2 {
         width: 48%;
-        padding: 5% 0 010%;
+        padding: 5% 0 0 25%;
 
     }
 
@@ -429,7 +429,7 @@
 
 
     .accordion:after {
-        content: url(../images/down.png);
+        content: url(/images/down.png);
         color: rgb(255, 255, 255);
         font-weight: bold;
         float: right;
@@ -437,7 +437,7 @@
     }
 
     .active:after {
-        content: url(../images/up.png);
+        content: url(/images/up.png);
     }
 
     .ques-row {
@@ -511,33 +511,43 @@
         /* width: auto; */
         width: 100%;
     }
-
-    .mimg11 {
-        height: 100px;
-        width: 62px;
+    .specs {
+        /* padding-bottom: -100px; */
+        height: 100%;
     }
-
-    .mcont1 {
-        position: relative;
+    .spec-img {
+        /* position: absolute; */
+        padding-top: 50px;
     }
-
-    .mimg12 {
-        height: 64px;
-        width: 85px;
-    }
-
-    .mgif1 {
-        position: absolute;
-        top: 100px;
-        right: 65px;
-    }
-
-    .mgif2 {
-        position: absolute;
-        top: 293px;
-        left: 137px;
+    .spc1-gif1 {
         transform: rotate(45deg);
+        /* top: -120%; */
+        width: 62px;
+        height: 110px;
     }
+    .spc1-gif {
+        position: relative;
+        width: 62px;
+        margin-left: 0;
+        right: -7.5rem;
+        top: -45.5em;
+    }
+    .spc2-gif2 {
+        width: 85px;
+        height: 63px;
+        transform: rotate(45deg);
+
+    }
+    .spc2-gif {
+        width: 85px;
+        position: relative;
+        left: 0rem;
+        top: -41rem;
+    }
+    .msh2 {
+        margin-top: -100px;
+    }
+
 
 
 
@@ -551,7 +561,7 @@
 @media screen and (max-width: 350px) {
 
     .accordion:after {
-        content: url(../images/down.png);
+        content: url(/images/down.png);
         color: rgb(255, 255, 255);
         font-weight: bold;
         float: right;
