@@ -147,7 +147,7 @@
 }
 
 .accordion:after {
-    content: url(/images/down.png);
+    content: url(../images/down.png);
     color: rgb(255, 255, 255);
     font-weight: bold;
     float: right;
@@ -173,7 +173,7 @@
 }
 
 .accordion:after {
-    content: url(/images/down.png);
+    content: url(../images/down.png);
     color: rgb(255, 255, 255);
     font-weight: bold;
     float: right;
@@ -181,7 +181,7 @@
 }
 
 .active:after {
-    content: url(/images/up.png);
+    content: url(../images/up.png);
 }
 
 
@@ -429,7 +429,7 @@
 
 
     .accordion:after {
-        content: url(/images/down.png);
+        content: url(../images/down.png);
         color: rgb(255, 255, 255);
         font-weight: bold;
         float: right;
@@ -437,7 +437,7 @@
     }
 
     .active:after {
-        content: url(/images/up.png);
+        content: url(../images/up.png);
     }
 
     .ques-row {
@@ -525,7 +525,7 @@
 @media screen and (max-width: 350px) {
 
     .accordion:after {
-        content: url(/images/down.png);
+        content: url(../images/down.png);
         color: rgb(255, 255, 255);
         font-weight: bold;
         float: right;

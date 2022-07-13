@@ -118,7 +118,8 @@
 
 
     .m-ind1 {
-        width: 100vw;
+        width: 100%;
+        margin-top: 2%;
     }
 
     .m-ind7 {
@@ -166,7 +167,7 @@
     }
 
     .mySlides img {
-        /* width: auto; */
+        width: auto;
         width: 100%;
     }
 

@@ -126,6 +126,7 @@
         <div class="feat1">
             <div class="text1"> How we solve? </div>
             <div class="text2"> MasterTag helps you to keep track of your assets! </div>
+
             <div class="text3">
                 <div class="ts t31"> <a href="#">Main Features </a> </div>
                 <div class="ts t32"><a href="#har"> Hardware Features </a></div>
@@ -141,12 +142,53 @@
             <img class="msh2" src="./features images/msh2.png">
             <img class="msh3" src="./features images/msh3.png">
             <img class="msh4" src="./features images/msh4.png">
-
-
-
+            <br><br>
+            <img class="msh5" src="./features images/msh5.svg">
         </center>
 
         <br><br><br>
+        <center>
+            <img class="m-ind2" src="./images/rev-head.png">
+
+
+            <div class="container">
+
+                <center>
+                    <div class="mySlides">
+                        <!-- <div class="numbertext">1 / 6</div> -->
+                        <img src="./images/rev1.svg">
+                    </div>
+
+                    <div class="mySlides">
+                        <!-- <div class="numbertext">2 / 6</div> -->
+                        <img src="./images/rev2.svg">
+                    </div>
+
+                    <div class="mySlides">
+                        <!-- <div class="numbertext">3 / 6</div> -->
+                        <img src="./images/rev3.svg">
+                    </div>
+
+
+
+                </center>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                <br>
+
+            </div>
+
+            <img class="m-ind2" src="./images/m-ind9.png">
+            <br>
+            <br> <br> <br> <br>
+        </center>
+
+
+
+
+
     </div>
 
 
@@ -347,6 +389,41 @@
                 x.className = "navbar";
             }
         }
+    </script>
+
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+
+            console.log('working');
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("demo");
+            let captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+
     </script>
 
 
