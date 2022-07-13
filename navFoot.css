@@ -277,15 +277,15 @@ a:active {
 
     .navbar.responsive .icon {
         position: absolute;
-        right: 32px;
-        top: 20px;
+        right: 34px;
+        top: 10px;
     }
 
     .navbar.responsive a {
         float: none;
         display: block;
         text-align: left;
-        padding: 0 0 5px 0;
+        padding: 0 0 5px 4%;
     }
 
 
@@ -300,7 +300,12 @@ a:active {
         font-family: Roboto;
         font-size: 25px;
         font-weight: 600;
-        margin: 0 63% 0 6%;
+        margin: 0 52% 0 4%;
+    }
+
+    .mcart {
+        padding: 0 8px 0 3px;
+        vertical-align: -11px;
     }
 
     /* footer mobile */
@@ -366,9 +371,13 @@ a:active {
 
 
     .icon {
-        padding: 18px 2px 2px 2px;
+        padding: 5px 2px 2px 2px;
         /* height: 30px;*/
         /*width: 14%;*/
+    }
+
+    .fa {
+        margin: -2% 0 0 0;
     }
 
     .iconf1 {
