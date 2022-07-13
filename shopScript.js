@@ -11,6 +11,8 @@ const btn4 = document.querySelector('.s1');
 const btn5 = document.querySelector('.s2');
 const btn6 = document.querySelector('.s3');
 
+const shopImg = document.querySelector('.s4');
+
 let pack1 = document.getElementById('s5');
 let pack2 = document.getElementById('s6');
 let pack3 = document.getElementById('s7');
@@ -28,6 +30,8 @@ btn4.addEventListener('click', function () {
     btn5.src = './images/s2.png';
     btn6.src = './images/s3.png';
 
+    shopImg.src = './images/sl2.png'
+
 });
 
 btn5.addEventListener('click', function () {
@@ -36,6 +40,8 @@ btn5.addEventListener('click', function () {
     btn5.src = './images/s12.png';
     btn6.src = './images/s3.png';
 
+    shopImg.src = './images/sl1.png'
+
 });
 
 btn6.addEventListener('click', function () {
@@ -43,6 +49,8 @@ btn6.addEventListener('click', function () {
     btn4.src = './images/s1.png';
     btn5.src = './images/s2.png';
     btn6.src = './images/s13.png';
+
+    shopImg.src = './images/sl3.png'
 
 });
 
@@ -60,6 +68,7 @@ btn1.addEventListener('click', function () {
     pack3.style.border = 'solid 2.3px white';
 
     target4.src = './images/s14.svg';
+    shopImg.src = './images/sl2.png';
 
 
     if (viewState1) {
@@ -263,6 +272,8 @@ btn2.addEventListener('click', function () {
     pack3.style.border = 'solid 2.3px white';
 
     target4.src = './images/s15.svg';
+    shopImg.src = './images/sl4.png';
+
 
 
     if (viewState2) {
@@ -465,6 +476,8 @@ btn3.addEventListener('click', function () {
     pack2.style.border = 'solid 2.3px white';
 
     target4.src = './images/s16.svg';
+    shopImg.src = './images/sl5.png';
+
 
 
     if (viewState3) {
