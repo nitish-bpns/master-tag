@@ -62,7 +62,7 @@
 }
 
 .mySlides img {
-    height: 65vh;
+    height: auto;
     width: auto;
 }
 
