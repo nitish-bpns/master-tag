@@ -82,6 +82,18 @@
     width: 100%;
 }
 
+.div1 {
+    margin: -0% 0 0 -12%;
+}
+
+.div2 {
+    margin: -0% 0 0 -12%;
+}
+
+.div3 {
+    margin: -0% 0 0 -12%;
+}
+
 /* .sp-part2-container {
     padding: 150px;
 }
@@ -539,7 +551,17 @@
         transform: rotate(45deg);
     }
 
+    .div1 {
+        margin: -0% 0 0 0%;
+    }
 
+    .div2 {
+        margin: -0% 0 0 0%;
+    }
+
+    .div3 {
+        margin: -0% 0 0 0%;
+    }
 
 
 
