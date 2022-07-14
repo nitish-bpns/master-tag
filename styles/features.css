@@ -197,8 +197,75 @@ html {
         box-shadow: inset 0 0 0 0 white;
     }
 
+    .msh2 {
+        width: 70vw;
+    }
+
+    .keyd {
+        position: relative;
+    }
+
+    .fkeys {
+        width: 70vw;
+        /* position: relative; */
+    }
+
+    .mkeys1 {
+        position: absolute;
+        top: 38%;
+        left: 60%;
+    }
+
     .msh5 {
         width: 100%;
+    }
+
+    .mplay {
+        width: 70vw;
+    }
+
+    .kwifi {
+        position: relative;
+    }
+
+    .ewifi {
+        width: 70vw;
+        z-index: 2;
+    }
+
+    .mwifi {
+        position: absolute;
+        top: -10%;
+        left: 17%;
+        z-index: 0;
+    }
+
+    .miwifi {
+        height: 62px;
+        width: 86px;
+        transform: rotate(-45deg);
+    }
+
+    .kloc {
+        position: relative;
+    }
+
+    .eloc {
+        width: 70vw;
+        /* z-index: 2; */
+    }
+
+    .mloc {
+        position: absolute;
+        top: -4%;
+        left: 45%;
+        /* z-index: 0; */
+    }
+
+    .miloc {
+        height: 62px;
+        width: 86px;
+        transform: rotate(0deg);
     }
 
     .container {
@@ -240,6 +307,7 @@ html {
     .mySlides img {
         /* width: auto; */
         width: 100%;
+        margin: 0% 0 -13% 0;
     }
 
     .mimg11 {
@@ -258,14 +326,14 @@ html {
 
     .mgif1 {
         position: absolute;
-        top: 100px;
-        right: 65px;
+        top: 92px;
+        right: 50px;
     }
 
     .mgif2 {
         position: absolute;
-        top: 293px;
-        left: 137px;
+        top: 278px;
+        left: 160px;
         transform: rotate(45deg);
     }
 

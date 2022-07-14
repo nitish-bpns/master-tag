@@ -247,6 +247,10 @@ a:active {
     /*  */
     /* Hiding desktop view */
 
+    .nlogo {
+        height: 2.3rem;
+        width: auto;
+    }
 
     .desktop-view {
         display: none;
@@ -254,7 +258,7 @@ a:active {
 
     .mobile-view {
         display: block;
-        padding: 11% 0 0 0;
+        padding: 10% 0 0 0;
     }
 
     .navbar a:not(:first-child) {
@@ -300,11 +304,11 @@ a:active {
         font-family: Roboto;
         font-size: 25px;
         font-weight: 600;
-        margin: 0 52% 0 4%;
+        margin: 0 55% 0 4%;
     }
 
     .mcart {
-        padding: 0 8px 0 3px;
+        padding: 0 8px 1px 3px;
         vertical-align: -11px;
     }
 
@@ -326,7 +330,7 @@ a:active {
 
     .foot-col2 {
         width: 24%;
-        padding: 0 0% 0% 8%;
+        padding: 0 0% 0% 7%;
         font-size: 14px;
         line-height: 29px;
         color: #5E5E5E;
@@ -340,17 +344,19 @@ a:active {
         font-size: 14px;
         line-height: 29px;
         color: #5E5E5E;
+        text-align: center;
 
         /* background-color: orange; */
     }
 
     .foot-col4 {
         width: 27%;
-        padding: 0px 0% 0% 8%;
+        padding: 0px 5% 0% 3%;
         font-size: 14px;
         line-height: 29px;
         color: #5E5E5E !important;
         text-decoration: none !important;
+        text-align: right;
         /* background-color: lightgreen; */
     }
 
@@ -362,16 +368,21 @@ a:active {
 
     .fcol11 {
         width: 52%;
+        /* display: none; */
     }
 
     .fcol12 {
         width: 48%;
+        /* display: none; */
         /* float: right; */
     }
 
+    .fm372 {
+        width: 100%;
+    }
 
     .icon {
-        padding: 5px 2px 2px 2px;
+        padding: 1px 2px 2px 2px;
         /* height: 30px;*/
         /*width: 14%;*/
     }
@@ -431,7 +442,7 @@ a:active {
     }
 
     .last-line {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 20px;
         color: #5E5E5E;
         text-align: center;
