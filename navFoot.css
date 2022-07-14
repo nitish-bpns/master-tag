@@ -258,7 +258,7 @@ a:active {
 
     .mobile-view {
         display: block;
-        padding: 10% 0 0 0;
+        padding: 9.6% 0 0 0;
     }
 
     .navbar a:not(:first-child) {
@@ -330,7 +330,7 @@ a:active {
 
     .foot-col2 {
         width: 24%;
-        padding: 0 0% 0% 7%;
+        padding: 0 0% 0% 6%;
         font-size: 14px;
         line-height: 29px;
         color: #5E5E5E;
@@ -363,7 +363,7 @@ a:active {
     .fcol1-row1 {
         display: flex;
         flex-wrap: wrap;
-        margin: 0 0 6% 0;
+        margin: 0 0 -6% 0;
     }
 
     .fcol11 {
@@ -400,8 +400,8 @@ a:active {
 
     .iconf2 {
         height: 20px;
-        width: 10px;
-        padding: 1.5%;
+        width: 12px;
+        padding: 1.2%;
     }
 
     .iconf3 {
@@ -429,7 +429,7 @@ a:active {
     }
 
     .flogo {
-        width: 70%;
+        width: 75%;
     }
 
     .fcol1-row2 {
@@ -439,6 +439,7 @@ a:active {
         font-family: poppins;
         color: #5E5E5E;
         /* width: 98%; */
+        display: none;
     }
 
     .last-line {
@@ -460,4 +461,22 @@ a:active {
     }
 
 
+}
+
+
+
+
+
+
+@media screen and (max-width: 464px) {
+    .fcol11 {
+        width: 49%;
+        /* display: none; */
+    }
+
+    .fcol12 {
+        width: 51%;
+        /* display: none; */
+        /* float: right; */
+    }
 }

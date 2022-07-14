@@ -16,6 +16,16 @@ a:active {
     text-decoration: none;
 }
 
+.d-strip {
+    display: block;
+    width: 100%;
+    margin: 4.5% 0 0 0;
+}
+
+.m-strip {
+    display: none;
+}
+
 .navbar {
     overflow: hidden;
     position: fixed;
@@ -810,7 +820,7 @@ a:active {
 }
 
 .policy {
-    margin: 5% 10% 0 10%
+    margin: 2% 10% 0 10%
 }
 
 .pr-hr {
@@ -1188,6 +1198,16 @@ a:active {
         vertical-align: 12px;
         margin: 0 1% 0 -5%;
     }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1601,6 +1621,20 @@ a:active {
         width: 50%;
         float: left;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2099,7 +2133,7 @@ a:active {
     }
 
     .policy {
-        margin: 20% 0% 0 0%;
+        margin: 10% 0% 0 0%;
     }
 
     .pr-head {
@@ -2205,10 +2239,20 @@ a:active {
         margin: .5% 0 .5% 0;
     }
 
+    .mh1 {
+        width: 100%;
+        margin-top: 1.5%;
+    }
 
+    .m-strip {
+        display: block;
+        width: 100%;
+        margin: 11.5% 0 0 0;
+    }
 
-
-
+    .d-strip {
+        display: none;
+    }
 
 
 

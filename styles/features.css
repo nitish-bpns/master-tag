@@ -241,9 +241,9 @@ html {
     }
 
     .miwifi {
-        height: 62px;
-        width: 86px;
-        transform: rotate(-45deg);
+        height: 72px;
+        width: 102px;
+        transform: rotate(-42deg);
     }
 
     .kloc {
@@ -326,14 +326,14 @@ html {
 
     .mgif1 {
         position: absolute;
-        top: 92px;
-        right: 50px;
+        top: 98px;
+        right: 14px;
     }
 
     .mgif2 {
         position: absolute;
         top: 278px;
-        left: 160px;
+        left: 145px;
         transform: rotate(45deg);
     }
 

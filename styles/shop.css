@@ -347,6 +347,7 @@
     .s2,
     .s3 {
         width: 60px;
+        margin: -4% 0 0 0;
     }
 
     .s14 {
@@ -548,14 +549,14 @@
 
     .mgif1 {
         position: absolute;
-        top: 92px;
-        right: 55px;
+        top: 98px;
+        right: 14px;
     }
 
     .mgif2 {
         position: absolute;
         top: 278px;
-        left: 163px;
+        left: 145px;
         transform: rotate(45deg);
     }
 
