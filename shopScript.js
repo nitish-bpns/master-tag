@@ -216,7 +216,7 @@ btn1.addEventListener('click', function () {
                                     "title": "MasterTag Cart",
                                     "total": "Subtotal",
                                     "empty": "You have no MasterTags in your cart.",
-                                    "notice": "Pre-order your MasterTag now for FREE",
+                                    "notice": "Pre-order your MasterTag now!",
                                     "button": "Checkout"
                                 },
                                 "googleFonts": [
@@ -421,7 +421,7 @@ btn2.addEventListener('click', function () {
                                     "title": "MasterTag Cart",
                                     "total": "Subtotal",
                                     "empty": "You have no MasterTags in your cart.",
-                                    "notice": "Pre-order your MasterTag now for FREE",
+                                    "notice": "Pre-order your MasterTag now!",
                                     "button": "Checkout"
                                 },
                                 "googleFonts": [
@@ -625,7 +625,7 @@ btn3.addEventListener('click', function () {
                                     "title": "MasterTag Cart",
                                     "total": "Subtotal",
                                     "empty": "You have no MasterTags in your cart.",
-                                    "notice": "Pre-order your MasterTag now for FREE",
+                                    "notice": "Pre-order your MasterTag now!",
                                     "button": "Checkout"
                                 },
                                 "googleFonts": [
@@ -812,7 +812,7 @@ if (firstView) {
                                 "title": "MasterTag Cart",
                                 "total": "Subtotal",
                                 "empty": "You have no MasterTags in your cart.",
-                                "notice": "Pre-order your MasterTag now for FREE",
+                                "notice": "Pre-order your MasterTag now!",
                                 "button": "Checkout"
                             },
                             "googleFonts": [
