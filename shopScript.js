@@ -213,10 +213,10 @@ btn1.addEventListener('click', function () {
                                     }
                                 },
                                 "text": {
-                                    "title": "HashTag Cart",
+                                    "title": "MasterTag Cart",
                                     "total": "Subtotal",
-                                    "empty": "You have no HashTags in your cart.",
-                                    "notice": "Pre-order your HashTag now for FREE",
+                                    "empty": "You have no MasterTags in your cart.",
+                                    "notice": "Pre-order your MasterTag now for FREE",
                                     "button": "Checkout"
                                 },
                                 "googleFonts": [
@@ -418,10 +418,10 @@ btn2.addEventListener('click', function () {
                                     }
                                 },
                                 "text": {
-                                    "title": "HashTag Cart",
+                                    "title": "MasterTag Cart",
                                     "total": "Subtotal",
-                                    "empty": "You have no HashTags in your cart.",
-                                    "notice": "Pre-order your HashTag now for FREE",
+                                    "empty": "You have no MasterTags in your cart.",
+                                    "notice": "Pre-order your MasterTag now for FREE",
                                     "button": "Checkout"
                                 },
                                 "googleFonts": [
@@ -622,10 +622,10 @@ btn3.addEventListener('click', function () {
                                     }
                                 },
                                 "text": {
-                                    "title": "HashTag Cart",
+                                    "title": "MasterTag Cart",
                                     "total": "Subtotal",
-                                    "empty": "You have no HashTags in your cart.",
-                                    "notice": "Pre-order your HashTag now for FREE",
+                                    "empty": "You have no MasterTags in your cart.",
+                                    "notice": "Pre-order your MasterTag now for FREE",
                                     "button": "Checkout"
                                 },
                                 "googleFonts": [
@@ -809,10 +809,10 @@ if (firstView) {
                                 }
                             },
                             "text": {
-                                "title": "HashTag Cart",
+                                "title": "MasterTag Cart",
                                 "total": "Subtotal",
-                                "empty": "You have no HashTags in your cart.",
-                                "notice": "Pre-order your HashTag now for FREE",
+                                "empty": "You have no MasterTags in your cart.",
+                                "notice": "Pre-order your MasterTag now for FREE",
                                 "button": "Checkout"
                             },
                             "googleFonts": [

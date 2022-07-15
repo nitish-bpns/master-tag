@@ -235,8 +235,8 @@ html {
 
     .mwifi {
         position: absolute;
-        top: -10%;
-        left: 17%;
+        top: -15%;
+        left: 12%;
         z-index: 0;
     }
 
@@ -264,7 +264,7 @@ html {
 
     .miloc {
         height: 62px;
-        width: 86px;
+        width: 65px;
         transform: rotate(0deg);
     }
 
@@ -280,7 +280,7 @@ html {
         /* width: auto; */
         padding: 16px;
         /* margin-top: -50px; */
-        color: rgb(0, 0, 0);
+        color: rgb(102 102 102);
         font-weight: bold;
         font-size: 20px;
         border-radius: 0 3px 3px 0;
@@ -296,7 +296,7 @@ html {
         padding: 16px;
         right: 3%;
         /* margin-top: -50px; */
-        color: rgb(0, 0, 0);
+        color: rgb(102 102 102);
         font-weight: bold;
         font-size: 20px;
         border-radius: 0 3px 3px 0;
@@ -326,8 +326,8 @@ html {
 
     .mgif1 {
         position: absolute;
-        top: 98px;
-        right: 14px;
+        top: 115px;
+        right: 20px;
     }
 
     .mgif2 {

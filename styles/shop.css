@@ -502,7 +502,7 @@
         /* width: auto; */
         padding: 16px;
         /* margin-top: -50px; */
-        color: rgb(0, 0, 0);
+        color: rgb(102 102 102);
         font-weight: bold;
         font-size: 20px;
         border-radius: 0 3px 3px 0;
@@ -518,7 +518,7 @@
         padding: 16px;
         right: 3%;
         /* margin-top: -50px; */
-        color: rgb(0, 0, 0);
+        color: rgb(102 102 102);
         font-weight: bold;
         font-size: 20px;
         border-radius: 0 3px 3px 0;
@@ -549,8 +549,8 @@
 
     .mgif1 {
         position: absolute;
-        top: 98px;
-        right: 14px;
+        top: 115px;
+        right: 20px;
     }
 
     .mgif2 {
