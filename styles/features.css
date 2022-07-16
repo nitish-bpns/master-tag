@@ -86,8 +86,8 @@
 .gif1 {
     position: relative;
     transform: rotate(45deg);
-    top: -315px;
-    right: -331px;
+    top: -284px;
+    right: -281px;
     width: 100px;
 }
 
@@ -95,8 +95,8 @@
     position: relative;
     transform: rotate(62deg);
     right: -331px;
-    top: -276px;
-    right: 108px;
+    top: -258px;
+    right: 147px;
     width: 140px;
 
 }
@@ -117,17 +117,17 @@
 }
 
 .img11 {
-    height: 162.37px;
+    height: 132.37px;
 }
 
 .img12 {
-    height: 102.37px;
+    height: 68.37px;
 }
 
 
 
 .img1 {
-    padding-top: 6%;
+    padding-top: 2%;
 }
 
 body,
@@ -140,6 +140,74 @@ html {
     margin-bottom: -109px;
     margin-top: -52px;
 }
+
+
+
+.dmus {
+    position: relative;
+}
+
+.dmus3 {
+    position: absolute;
+    top: 28%;
+    right: 25%;
+}
+
+.dmus4 {
+    height: 172px;
+    width: 98px;
+    transform: rotate(43deg);
+}
+
+.dwifi {
+    position: relative;
+}
+
+.dwifi3 {
+    position: absolute;
+    top: -16%;
+    right: 38.6%;
+}
+
+.dwifi4 {
+    height: 89px;
+    width: 118px;
+    transform: rotate(-45deg);
+}
+
+.dloc {
+    position: relative;
+}
+
+.dloc3 {
+    position: absolute;
+    top: 28%;
+    right: 25%;
+}
+
+.dloc4 {
+    height: 86px;
+    width: 62px;
+    transform: rotate(43deg);
+}
+
+.cont444 {
+    margin: 0 0 -9% 0;
+}
+
+.cont445 {
+    margin: 0 0 -1% 0;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 464px) {

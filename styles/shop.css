@@ -27,6 +27,7 @@
 .s2,
 .s3 {
     width: auto;
+    margin: 0 0 -4.5% 0;
 }
 
 .s4 {
@@ -135,7 +136,7 @@
 
 .sp-part3 {
     text-align: center;
-    padding: 40px;
+    padding: 0px;
 }
 
 .c-ques {
