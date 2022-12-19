@@ -1,3 +1,26 @@
+let slideIndex2 = 0;
+showSlides2();
+
+function showSlides2() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides2");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex2++;
+    if (slideIndex2 > slides.length) { slideIndex2 = 1 }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex2 - 1].style.display = "block";
+    dots[slideIndex2 - 1].className += " active";
+    setTimeout(showSlides2, 2000); // Change image every 2 seconds
+}
+
+
+
+
 let nitish = document.querySelector('.img1');
 
 let main2 = 0
@@ -51,4 +74,8 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active";
     captionText.innerHTML = dots[slideIndex - 1].alt;
 }
+
+
+// For landing page automatic slide show
+
 
