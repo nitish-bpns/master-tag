@@ -41,6 +41,16 @@ a:active {
     width: auto;
 }
 
+.prstrip {
+    background-color: rgba(255, 0, 0, 0.638);
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    top: 4.5rem;
+    font-size: 18px;
+    padding: 2px;
+}
+
 .hash {
     color: rgb(0, 0, 0);
     text-align: center;
@@ -258,7 +268,7 @@ a:active {
 
     .mobile-view {
         display: block;
-        padding: 9.6% 0 0 0;
+        padding: 4rem 0 0 0;
     }
 
     .navbar a:not(:first-child) {
@@ -459,6 +469,17 @@ a:active {
     .ftext2 {
         font-size: 16px;
         opacity: 0.75;
+    }
+
+    .prstrip {
+        background-color: rgba(255, 0, 0, 0.837);
+        position: fixed;
+        width: 90%;
+        text-align: center;
+        top: 3rem;
+        font-size: 12px;
+        padding: 1px 5% 1px 5%;
+        color: white;
     }
 
 
