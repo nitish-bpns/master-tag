@@ -103,7 +103,7 @@ btn1.addEventListener('click', function () {
                 ShopifyBuy.UI.onReady(client).then(function (ui) {
                     ui.createComponent('product', {
                         id: '8038890504492',
-                        node: document.getElementById('product-component-1670057531181'),
+                        node: document.getElementById('product-component-1673879519345'),
                         moneyFormat: 'Rs.%20%7B%7Bamount%7D%7D',
                         options: {
                             "product": {
@@ -117,7 +117,7 @@ btn1.addEventListener('click', function () {
                                         "text-align": "left"
                                     },
                                     "button": {
-                                        "font-family": "Avant Garde, sans-serif",
+                                        "font-family": "Roboto, sans-serif",
                                         ":hover": {
                                             "background-color": "#e50000"
                                         },
@@ -137,7 +137,10 @@ btn1.addEventListener('click', function () {
                                 },
                                 "text": {
                                     "button": "Add to cart"
-                                }
+                                },
+                                "googleFonts": [
+                                    "Roboto"
+                                ]
                             },
                             "productSet": {
                                 "styles": {
@@ -164,7 +167,7 @@ btn1.addEventListener('click', function () {
                                         }
                                     },
                                     "button": {
-                                        "font-family": "Avant Garde, sans-serif",
+                                        "font-family": "Roboto, sans-serif",
                                         ":hover": {
                                             "background-color": "#e50000"
                                         },
@@ -177,6 +180,9 @@ btn1.addEventListener('click', function () {
                                         "padding-right": "35px"
                                     }
                                 },
+                                "googleFonts": [
+                                    "Roboto"
+                                ],
                                 "text": {
                                     "button": "Add to cart"
                                 }
@@ -185,7 +191,7 @@ btn1.addEventListener('click', function () {
                             "cart": {
                                 "styles": {
                                     "button": {
-                                        "font-family": "Avant Garde, sans-serif",
+                                        "font-family": "Roboto, sans-serif",
                                         ":hover": {
                                             "background-color": "#e50000"
                                         },
@@ -240,15 +246,17 @@ btn1.addEventListener('click', function () {
                                 },
                                 "text": {
                                     "title": "MasterTag Cart",
-                                    "total": "Pre-Order Advance",
                                     "notice": "Order your MasterTag now!",
                                     "button": "Checkout"
-                                }
+                                },
+                                "googleFonts": [
+                                    "Roboto"
+                                ]
                             },
                             "toggle": {
                                 "styles": {
                                     "toggle": {
-                                        "font-family": "Avant Garde, sans-serif",
+                                        "font-family": "Roboto, sans-serif",
                                         "background-color": "#fe0000",
                                         ":hover": {
                                             "background-color": "#e50000"
@@ -257,7 +265,10 @@ btn1.addEventListener('click', function () {
                                             "background-color": "#e50000"
                                         }
                                     }
-                                }
+                                },
+                                "googleFonts": [
+                                    "Roboto"
+                                ]
                             },
                             "lineItem": {
                                 "styles": {
@@ -535,7 +546,7 @@ btn2.addEventListener('click', function () {
                 ShopifyBuy.UI.onReady(client).then(function (ui) {
                     ui.createComponent('product', {
                         id: '8038893355308',
-                        node: document.getElementById('product-component-1670057858669'),
+                        node: document.getElementById('product-component-1673879688908'),
                         moneyFormat: 'Rs.%20%7B%7Bamount%7D%7D',
                         options: {
                             "product": {
@@ -549,7 +560,7 @@ btn2.addEventListener('click', function () {
                                         "text-align": "left"
                                     },
                                     "button": {
-                                        "font-family": "Avant Garde, sans-serif",
+                                        "font-family": "Roboto, sans-serif",
                                         ":hover": {
                                             "background-color": "#e50000"
                                         },
@@ -569,7 +580,10 @@ btn2.addEventListener('click', function () {
                                 },
                                 "text": {
                                     "button": "Add to cart"
-                                }
+                                },
+                                "googleFonts": [
+                                    "Roboto"
+                                ]
                             },
                             "productSet": {
                                 "styles": {
@@ -596,7 +610,7 @@ btn2.addEventListener('click', function () {
                                         }
                                     },
                                     "button": {
-                                        "font-family": "Avant Garde, sans-serif",
+                                        "font-family": "Roboto, sans-serif",
                                         ":hover": {
                                             "background-color": "#e50000"
                                         },
@@ -609,6 +623,9 @@ btn2.addEventListener('click', function () {
                                         "padding-right": "35px"
                                     }
                                 },
+                                "googleFonts": [
+                                    "Roboto"
+                                ],
                                 "text": {
                                     "button": "Add to cart"
                                 }
@@ -617,7 +634,7 @@ btn2.addEventListener('click', function () {
                             "cart": {
                                 "styles": {
                                     "button": {
-                                        "font-family": "Avant Garde, sans-serif",
+                                        "font-family": "Roboto, sans-serif",
                                         ":hover": {
                                             "background-color": "#e50000"
                                         },
@@ -672,15 +689,17 @@ btn2.addEventListener('click', function () {
                                 },
                                 "text": {
                                     "title": "MasterTag Cart",
-                                    "total": "Pre-Order Advance",
                                     "notice": "Order your MasterTag now!",
                                     "button": "Checkout"
-                                }
+                                },
+                                "googleFonts": [
+                                    "Roboto"
+                                ]
                             },
                             "toggle": {
                                 "styles": {
                                     "toggle": {
-                                        "font-family": "Avant Garde, sans-serif",
+                                        "font-family": "Roboto, sans-serif",
                                         "background-color": "#fe0000",
                                         ":hover": {
                                             "background-color": "#e50000"
@@ -689,7 +708,10 @@ btn2.addEventListener('click', function () {
                                             "background-color": "#e50000"
                                         }
                                     }
-                                }
+                                },
+                                "googleFonts": [
+                                    "Roboto"
+                                ]
                             },
                             "lineItem": {
                                 "styles": {
@@ -967,7 +989,7 @@ btn3.addEventListener('click', function () {
                 ShopifyBuy.UI.onReady(client).then(function (ui) {
                     ui.createComponent('product', {
                         id: '8038897287468',
-                        node: document.getElementById('product-component-1670057907720'),
+                        node: document.getElementById('product-component-1673879811971'),
                         moneyFormat: 'Rs.%20%7B%7Bamount%7D%7D',
                         options: {
                             "product": {
@@ -981,7 +1003,7 @@ btn3.addEventListener('click', function () {
                                         "text-align": "left"
                                     },
                                     "button": {
-                                        "font-family": "Avant Garde, sans-serif",
+                                        "font-family": "Roboto, sans-serif",
                                         ":hover": {
                                             "background-color": "#e50000"
                                         },
@@ -1001,7 +1023,10 @@ btn3.addEventListener('click', function () {
                                 },
                                 "text": {
                                     "button": "Add to cart"
-                                }
+                                },
+                                "googleFonts": [
+                                    "Roboto"
+                                ]
                             },
                             "productSet": {
                                 "styles": {
@@ -1028,7 +1053,7 @@ btn3.addEventListener('click', function () {
                                         }
                                     },
                                     "button": {
-                                        "font-family": "Avant Garde, sans-serif",
+                                        "font-family": "Roboto, sans-serif",
                                         ":hover": {
                                             "background-color": "#e50000"
                                         },
@@ -1041,6 +1066,9 @@ btn3.addEventListener('click', function () {
                                         "padding-right": "35px"
                                     }
                                 },
+                                "googleFonts": [
+                                    "Roboto"
+                                ],
                                 "text": {
                                     "button": "Add to cart"
                                 }
@@ -1049,7 +1077,7 @@ btn3.addEventListener('click', function () {
                             "cart": {
                                 "styles": {
                                     "button": {
-                                        "font-family": "Avant Garde, sans-serif",
+                                        "font-family": "Roboto, sans-serif",
                                         ":hover": {
                                             "background-color": "#e50000"
                                         },
@@ -1104,15 +1132,17 @@ btn3.addEventListener('click', function () {
                                 },
                                 "text": {
                                     "title": "MasterTag Cart",
-                                    "total": "Pre-Order Advance",
                                     "notice": "Order your MasterTag now!",
                                     "button": "Checkout"
-                                }
+                                },
+                                "googleFonts": [
+                                    "Roboto"
+                                ]
                             },
                             "toggle": {
                                 "styles": {
                                     "toggle": {
-                                        "font-family": "Avant Garde, sans-serif",
+                                        "font-family": "Roboto, sans-serif",
                                         "background-color": "#fe0000",
                                         ":hover": {
                                             "background-color": "#e50000"
@@ -1121,7 +1151,10 @@ btn3.addEventListener('click', function () {
                                             "background-color": "#e50000"
                                         }
                                     }
-                                }
+                                },
+                                "googleFonts": [
+                                    "Roboto"
+                                ]
                             },
                             "lineItem": {
                                 "styles": {
@@ -1165,7 +1198,6 @@ btn3.addEventListener('click', function () {
                 });
             }
         })();
-
 
 
         // (function () {
@@ -1383,7 +1415,7 @@ if (firstView) {
             ShopifyBuy.UI.onReady(client).then(function (ui) {
                 ui.createComponent('product', {
                     id: '8038890504492',
-                    node: document.getElementById('product-component-1670057531181'),
+                    node: document.getElementById('product-component-1673879519345'),
                     moneyFormat: 'Rs.%20%7B%7Bamount%7D%7D',
                     options: {
                         "product": {
@@ -1397,7 +1429,7 @@ if (firstView) {
                                     "text-align": "left"
                                 },
                                 "button": {
-                                    "font-family": "Avant Garde, sans-serif",
+                                    "font-family": "Roboto, sans-serif",
                                     ":hover": {
                                         "background-color": "#e50000"
                                     },
@@ -1417,7 +1449,10 @@ if (firstView) {
                             },
                             "text": {
                                 "button": "Add to cart"
-                            }
+                            },
+                            "googleFonts": [
+                                "Roboto"
+                            ]
                         },
                         "productSet": {
                             "styles": {
@@ -1444,7 +1479,7 @@ if (firstView) {
                                     }
                                 },
                                 "button": {
-                                    "font-family": "Avant Garde, sans-serif",
+                                    "font-family": "Roboto, sans-serif",
                                     ":hover": {
                                         "background-color": "#e50000"
                                     },
@@ -1457,6 +1492,9 @@ if (firstView) {
                                     "padding-right": "35px"
                                 }
                             },
+                            "googleFonts": [
+                                "Roboto"
+                            ],
                             "text": {
                                 "button": "Add to cart"
                             }
@@ -1465,7 +1503,7 @@ if (firstView) {
                         "cart": {
                             "styles": {
                                 "button": {
-                                    "font-family": "Avant Garde, sans-serif",
+                                    "font-family": "Roboto, sans-serif",
                                     ":hover": {
                                         "background-color": "#e50000"
                                     },
@@ -1520,15 +1558,17 @@ if (firstView) {
                             },
                             "text": {
                                 "title": "MasterTag Cart",
-                                "total": "Pre-Order Advance",
                                 "notice": "Order your MasterTag now!",
                                 "button": "Checkout"
-                            }
+                            },
+                            "googleFonts": [
+                                "Roboto"
+                            ]
                         },
                         "toggle": {
                             "styles": {
                                 "toggle": {
-                                    "font-family": "Avant Garde, sans-serif",
+                                    "font-family": "Roboto, sans-serif",
                                     "background-color": "#fe0000",
                                     ":hover": {
                                         "background-color": "#e50000"
@@ -1537,7 +1577,10 @@ if (firstView) {
                                         "background-color": "#e50000"
                                     }
                                 }
-                            }
+                            },
+                            "googleFonts": [
+                                "Roboto"
+                            ]
                         },
                         "lineItem": {
                             "styles": {
@@ -1581,7 +1624,6 @@ if (firstView) {
             });
         }
     })();
-
 
 
     // (function () {
